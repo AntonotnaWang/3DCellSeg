@@ -12,7 +12,7 @@ Official implementation of [A novel deep learning-based 3D cell segmentation fra
 
 3DCellSeg was trained and tested on four datasets: HMS (private), ATAS, [LRP](https://osf.io/2rszy/), [Ovules](https://osf.io/w38uf/).
 
-*For [HMS dataset](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wangad_connect_hku_hk/EmSDG-nXao5DuyrjzCMScSgBHgECAs7jjcs54DKerkXAHw?e=hex9it), please send email to the authors to get data access.*
+*For HMS dataset, please send email to the authors to get data access.*
 
 - Put the data filefolder under a given path (e.g., ```\data\CellSeg_dataset``` in my case)
 
