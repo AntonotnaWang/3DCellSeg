@@ -5,14 +5,14 @@ A light and robust tool to do 3D cell instance segmentation.
 Official implementation of [A novel deep learning-based 3D cell segmentation framework for future image-based disease detection](https://www.nature.com/articles/s41598-021-04048-3). (However, I think the title should be ***3DCellSeg - a robust deep learning-based 3D cell instance segmentation pipeline***.)
 
 <div align="center">
-    <img src="figs/central_illustration.png" width="500"/>
+    <img src="figs/central_illustration.png" width="700"/>
 </div>
 
 ## Datasets and data pre-processing
 
 3DCellSeg was trained and tested on four datasets: HMS (private), ATAS, [LRP](https://osf.io/2rszy/), [Ovules](https://osf.io/w38uf/).
 
-*For HMS dataset, please send email to the authors to get data access.*
+*For [HMS dataset](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wangad_connect_hku_hk/EmSDG-nXao5DuyrjzCMScSgBHgECAs7jjcs54DKerkXAHw?e=hex9it), please send email to the authors to get data access.*
 
 - Put the data filefolder under a given path (e.g., ```\data\CellSeg_dataset``` in my case)
 
@@ -71,7 +71,7 @@ For Ovules
     ...
 ```
 
-- Run ```prepare_datasets.py``` (which calls py files in folder ```prepare_dataset```) to pre-process the dataset. ([Here]() to download the samples of processed datasets.)
+- Run ```prepare_datasets.py``` (which calls py files in folder ```prepare_dataset```) to pre-process the dataset. ([Here](https://connecthkuhk-my.sharepoint.com/:f:/g/personal/wangad_connect_hku_hk/Eo2UGa6WTA5Gj0F1S6Xc9HABedf0FUVpNw8swUWl5-3kRg?e=UMBGmx) to download the samples of pre-processed files (passwd: ```cellseg```).)
 
 - You may use ```prepare_datasets.py``` to pre-crop the 3D images if you find the training is slow.
 
@@ -79,7 +79,7 @@ For Ovules
 
 ## Train and test
 
-Run ```train_HMS.py```, ```train_ATAS.py```, ```train_LRP.py```, and ```train_Ovules.py``` to train the model on the corresponding dataset. Implemented by PyTorch. You can easily adjust the hyperparameters.
+Run ```train_HMS.py```, ```train_ATAS.py```, ```train_LRP.py```, and ```train_Ovules.py``` to train the model on the corresponding dataset. They were implemented by PyTorch. You can easily adjust the hyperparameters.
 
 Run notebook ```test_HMS.ipynb```, ```test_ATAS.ipynb```, ```test_LRP.ipynb```, and ```test_Ovules.ipynb``` to test the model.
 
