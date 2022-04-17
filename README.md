@@ -1,8 +1,8 @@
 # 3DCellSeg
 
-A light and robust tool to do 3D cell instance segmentation.
+A light and robust tool to do 3D cell instance segmentation for cell membrane images. It is useful when the cells clump together.
 
-Official implementation of [A novel deep learning-based 3D cell segmentation framework for future image-based disease detection](https://www.nature.com/articles/s41598-021-04048-3). (However, I think the title should be ***3DCellSeg - a robust deep learning-based 3D cell instance segmentation pipeline***.)
+Official implementation of [A novel deep learning-based 3D cell segmentation framework for future image-based disease detection](https://www.nature.com/articles/s41598-021-04048-3). (However, we think the title should be ***3DCellSeg - a robust deep learning-based 3D cell instance segmentation pipeline***. We could not understand why the corresponding author J changed the title. It was so wired. Anyway, the work itself is what it is.)
 
 <div align="center">
     <img src="figs/central_illustration.png" width="700"/>
@@ -81,7 +81,7 @@ For Ovules
 
 Run ```train_HMS.py```, ```train_ATAS.py```, ```train_LRP.py```, and ```train_Ovules.py``` to train the model on the corresponding dataset. They were implemented by PyTorch. You can easily adjust the hyperparameters.
 
-Run notebook ```test_HMS.ipynb```, ```test_ATAS.ipynb```, ```test_LRP.ipynb```, and ```test_Ovules.ipynb``` to test the model.
+Run notebook ```test_HMS.ipynb```, ```test_ATAS.ipynb```, ```test_LRP.ipynb```, and ```test_Ovules.ipynb``` to test the model. The notebooks show details of every step.
 
 ## Pretrained models
 
