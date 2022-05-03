@@ -1,0 +1,13 @@
+edt
+h5py
+matplotlib
+MedPy
+numpy
+scikit_image
+scikit_learn
+scipy
+skimage
+torch
+torchio
+torchsummary
+torchvision
