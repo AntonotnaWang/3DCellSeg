@@ -8,6 +8,10 @@ Official implementation of [A novel deep learning-based 3D cell segmentation fra
     <img src="figs/central_illustration.png" width="700"/>
 </div>
 
+## Dependencies
+
+- Check the required python packages in `requirements.txt`.
+
 ## Datasets and data pre-processing
 
 3DCellSeg was trained and tested on four datasets: HMS (private), ATAS, [LRP](https://osf.io/2rszy/), [Ovules](https://osf.io/w38uf/).
