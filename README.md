@@ -83,9 +83,11 @@ For Ovules
 
 ## Train and test
 
-Run ```train_HMS.py```, ```train_ATAS.py```, ```train_LRP.py```, and ```train_Ovules.py``` to train the model on the corresponding dataset. They were implemented by PyTorch. You can easily adjust the hyperparameters.
+Run ```train_HMS.py``` and ```train_ATAS.py``` to train the model on the corresponding dataset. They were implemented by PyTorch. You can easily adjust the hyperparameters.
 
 Run notebook ```test_HMS.ipynb```, ```test_ATAS.ipynb```, ```test_LRP.ipynb```, and ```test_Ovules.ipynb``` to test the model. The notebooks show details of every step.
+
+Run notebook ```test_Ovules_cal_acc.ipynb```, ```Ovules_test _cal_multi_img_acc.ipynb```, ```test_LRP_cal_acc.ipynb```, and ```LRP_test _cal_multi_img_acc.ipynb``` to calculate accuracy on ```Ovules``` and ```LRP``` datasets.
 
 ## Pretrained models
 
